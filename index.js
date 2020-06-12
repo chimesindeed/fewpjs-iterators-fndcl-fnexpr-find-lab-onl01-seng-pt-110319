@@ -24,7 +24,7 @@ const arrayOfObjects = [      // Brackets = ARRAY PART
 function superbowlWin(arg1){ // arg1 can be ARRAY OF OBJECTS
   let x = arg1.find( record => // this is like Ruby's  do |item| item.action
     record.result === "W")
-    return x == "W" ? record.year : undefined
-    
+    x == "W" ? record.year : undefined
+    console.log(x)
   
 }
