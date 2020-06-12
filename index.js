@@ -25,6 +25,6 @@ function superbowlWin(arg1){ // arg1 can be ARRAY OF OBJECTS
   let x = arg1.find( record => // this is like Ruby's  do |item| item.action
     record.result === "W")
     x ? x.year : undefined
-   console.log(x)
+   console.log(x.year)
   
 }
